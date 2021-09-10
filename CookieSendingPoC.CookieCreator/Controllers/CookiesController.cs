@@ -15,7 +15,11 @@ namespace CookieSendingPoC.CookieCreator.Controllers
         [HttpGet]
         public IActionResult GetCookie()
         {
-            Response.Cookies.Append("test", "testValue");
+            Response.Cookies.Append("test", "testValue", new CookieOptions
+            {
+                 HttpOnly = true,
+                 Secure = true
+            });
             return Redirect("https://localhost:44313/");
         }
     }
