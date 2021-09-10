@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieSendingPoC.CookieCreator", "CookieSendingPoC.CookieCreator\CookieSendingPoC.CookieCreator.csproj", "{BD63D786-12B0-4B33-9CB6-546D89C96B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieSendingPoC.CookieReceiver", "CookieSendingPoC.CookieReceiver\CookieSendingPoC.CookieReceiver.csproj", "{86B52006-8E08-4A60-A284-FBA497745CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieSendingPoC.Client", "CookieSendingPoC.Client\CookieSendingPoC.Client.csproj", "{5BDCC0BE-4764-4729-B321-29ABDEE1AF8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD63D786-12B0-4B33-9CB6-546D89C96B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD63D786-12B0-4B33-9CB6-546D89C96B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD63D786-12B0-4B33-9CB6-546D89C96B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD63D786-12B0-4B33-9CB6-546D89C96B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B52006-8E08-4A60-A284-FBA497745CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B52006-8E08-4A60-A284-FBA497745CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B52006-8E08-4A60-A284-FBA497745CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B52006-8E08-4A60-A284-FBA497745CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BDCC0BE-4764-4729-B321-29ABDEE1AF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDCC0BE-4764-4729-B321-29ABDEE1AF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDCC0BE-4764-4729-B321-29ABDEE1AF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDCC0BE-4764-4729-B321-29ABDEE1AF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05688BDD-5278-4696-81ED-57C6DC350DA4}
+	EndGlobalSection
+EndGlobal
